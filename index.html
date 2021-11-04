@@ -10,7 +10,14 @@
   <body>
     <h1>This is my <span>frontend cheat sheet!</span></h1>
     <p>I will fill it in as we learn new things!</p>
+    <p>Visit my <a href="https://github.com/dstrekelj" target="_blank">GitHub profile</a></p>
+    <p>Get in touch, <a href="mailto:example@email.com">send a message</a></p>
+    <p><a href="./about.html">To About</a></p>
+    <ol>
+      <li><a href="#video">Video</a></li>
+    </ol>
     <h1>HTML</h1>
+    <a href="https://google.com" target="_blank"><img src="./html5.svg" alt="HTML5 logo" height="50"></a>
     <h2>Basic HTML document structure</h2>
     <pre>
       &lt;!doctype html&gt;
@@ -41,5 +48,17 @@
       <dt>small</dt>
       <dd>Used for footer text.</dd>
     </dl>
+    <h2>SVG</h2>
+    <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="50%" height="50px" fill="red"></rect>
+    </svg>
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="./music.wav">
+    </audio>
+    <h2 id="video">Video</h2>
+    <video width="600" controls>
+      <source src="./mountains.webm">
+    </video>
   </body>
 </html>

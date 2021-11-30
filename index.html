@@ -104,6 +104,61 @@
       <input id="q" type="text" name="q">
       <button type="submit">Go!</button>
     </form>
+    <h3>Login form</h3>
+    <form action="" novalidate autocomplete="off">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" minlength="8" required>
+      <button type="submit">Sign in</button>
+    </form>
+    <h3>Age gate form</h3>
+    <form action="">
+      <select name="month" id="month">
+        <option value="" disabled selected>Month</option>
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+      </select>
+      <button type="submit">Let me in!</button>
+    </form>
+    <h3>Survey form</h3>
+    <form action="">
+      <p>Dobro se snalazim u HTML. (1 - U potpunosti se ne slažem, 5 - U potpunosti se slažem)</p>
+      <label><input type="radio" name="answer" value="1"> 1</label>
+      <label><input type="radio" name="answer" value="2"> 2</label>
+      <label><input type="radio" name="answer" value="3" checked> 3</label>
+      <label><input type="radio" name="answer" value="4"> 4</label>
+      <label><input type="radio" name="answer" value="5"> 5</label>
+    </form>
+    <h3>Newsletter form</h3>
+    <form action="">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required>
+
+      <p>Pick your newsletter topics:</p>
+      <label><input type="checkbox" name="newsletter_topic" value="frontend" checked> Frontend</label>
+      <label><input type="checkbox" name="newsletter_topic" value="backend"> Backend</label>
+      <label><input type="checkbox" name="newsletter_topic" value="ux-ui-design"> UX/UI Design</label>
+      <label><input type="checkbox" name="newsletter_topic" value="marketing"> Marketing</label>
+
+      <button type="submit">Sign me up</button>
+    </form>
     <p><a href="#">Back to top</a></p>
+    <h3>Food order form</h3>
+    <form action="">
+      <input list="food-recommendations-list" type="text">
+      <button>Submit order</button>
+      <datalist id="food-recommendations-list">
+        <option value="Classic Hamburger">100% mljevena junetina, salata, rajčica, sir, umak, brioche pecivo</option>
+        <option>Wrap</option>
+        <option>Čokolino</option>
+        <option>Ćevapi</option>
+        <option>Pizza</option>
+        <option>Čevapćići</option>
+        <option>Zagrebački odrezak</option>
+        <option>Palenta</option>
+      </datalist>
+    </form>
+    <h2>Semantic HTML</h2>
+    <a href="./cookbook-example/apple-pie.html">Apple pie example</a>
   </body>
 </html>
